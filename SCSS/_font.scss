@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+}
+
+.h1 {
+  font-size: $h1;
+}
+
+.h2 {
+  font-size: $h2;
+}
+
+.fs-1 {
+  font-size: $fs-1;
+}
+
+.fs-2 {
+  font-size: $fs-2;
+}
+
+// Font-color
+.text-white {
+  color: $white;
+}
+
+.text-william {
+  color: $primary;
+}
