@@ -278,7 +278,9 @@ body {
 }
 
 .my-project-title {
-  margin: 0 0 16px 550px;
+  width: 746px;
+  margin-left: auto;
+  margin-bottom: 16px;
 }
 
 .me-6 {
