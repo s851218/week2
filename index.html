@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/all.css" />
   </head>
   <body>
@@ -30,7 +31,9 @@
             <h1 class="h2 text-white">
               Hi<br />
               I’m a front-end developer
-              <span class="h1 text-william d-block text-end">William</span>
+              <span class="h1 text-william d-block text-end" data-aos="fade-up"
+                >William</span
+              >
             </h1>
             <div class="d-flex justify-content-end">
               <a class="btn btn-primary d-flex gap-1" href="#">
@@ -47,20 +50,42 @@
     <section class="bg-img py-40">
       <div class="d-flex container">
         <div class="max-w-md me-6">
-          <h3 class="text-white h2 mb-9">Introduction</h3>
-          <p class="text-white fs-1 mb-8">
+          <h3 class="text-white h2 mb-9" data-aos="fade-right">Introduction</h3>
+          <p class="text-white fs-1 mb-8" data-aos="fade-right">
             Hi, I'm William Lee, a Front-End Developer with a passion for
             building beautiful and responsive websites that provide an optimal
             user experience.
           </p>
-          <img src="images/sparkle-sm.png" alt="sparkle-small" />
-          <img src="images/sparkle-sm.png" alt="sparkle-small" />
-          <img src="images/sparkle-sm.png" alt="sparkle-small" />
+          <img
+            src="images/sparkle-sm.png"
+            alt="sparkle-small"
+            data-aos="zoom-in-up"
+          />
+          <img
+            src="images/sparkle-sm.png"
+            alt="sparkle-small"
+            data-aos="zoom-in-up"
+          />
+          <img
+            src="images/sparkle-sm.png"
+            alt="sparkle-small"
+            data-aos="zoom-in-up"
+          />
         </div>
         <ul class="d-flex gap-6">
-          <li><img src="images/sparkle.png" alt="sparkle" /></li>
-          <li><img src="images/photographer.png" alt="photographer" /></li>
-          <li><img src="images/people-2.png" alt="WILLIAM" /></li>
+          <li>
+            <img src="images/sparkle.png" alt="sparkle" data-aos="flip-left" />
+          </li>
+          <li>
+            <img
+              src="images/photographer.png"
+              alt="photographer"
+              data-aos="flip-left"
+            />
+          </li>
+          <li>
+            <img src="images/people-2.png" alt="WILLIAM" data-aos="flip-left" />
+          </li>
         </ul>
       </div>
     </section>
@@ -69,30 +94,30 @@
     <section class="py-40">
       <div class="d-flex justify-content-between align-items-center container">
         <ol class="d-flex flex-wrap gap-6 max-w-lg">
-          <li class="border p-4 max-w-box shadow">
+          <li class="border p-4 max-w-box shadow" data-aos="zoom-in">
             <h4 class="fs-2">01</h4>
             <h4 class="fs-2">Attention to Detail</h4>
             <p>Meticulous code analysis and optimization.</p>
           </li>
-          <li class="border p-4 max-w-box shadow">
+          <li class="border p-4 max-w-box shadow" data-aos="zoom-in">
             <h4 class="fs-2">02</h4>
             <h4 class="fs-2">Adaptability</h4>
             <p>Swift learning of new technologies.</p>
           </li>
-          <li class="border p-4 max-w-box shadow">
+          <li class="border p-4 max-w-box shadow" data-aos="zoom-in">
             <h4 class="fs-2">03</h4>
             <h4 class="fs-2">Problem Solver</h4>
             <p>Identifying and resolving issues.</p>
           </li>
-          <li class="border p-4 max-w-box shadow">
+          <li class="border p-4 max-w-box shadow" data-aos="zoom-in">
             <h4 class="fs-2">04</h4>
             <h4 class="fs-2">Team Player</h4>
             <p>Collaborates and shares ideas.</p>
           </li>
         </ol>
         <div class="max-w-md">
-          <h3 class="h2 mb-9">About Me</h3>
-          <p class="fs-1">
+          <h3 class="h2 mb-9" data-aos="fade-left">About Me</h3>
+          <p class="fs-1" data-aos="fade-left">
             With over 5 years of experience, I'm proficient in HTML, CSS,
             JavaScript, jQuery, and React. I have a strong understanding of user
             experience design and accessibility. I'm always learning new
@@ -105,7 +130,7 @@
     <!-- contact me -->
     <section class="bg-linear-gradient py-96">
       <div class="d-flex justify-content-between align-items-center container">
-        <div class="d-flex gap-4">
+        <div class="d-flex gap-4" data-aos="fade-right">
           <h3 class="text-white h2">CONTACT ME</h3>
           <img
             src="images/trending_flat_black_24dp 1.png"
@@ -113,17 +138,17 @@
           />
         </div>
         <ul class="d-flex gap-5">
-          <li>
+          <li data-aos="fade-up" data-aos-duration="1000">
             <a class="contact-btn" href="#"
               ><img src="images/discord.png" alt="discord"
             /></a>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-duration="1500">
             <a class="contact-btn" href="#"
               ><img src="images/instagram.png" alt="instagram"
             /></a>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-duration="2000">
             <a class="contact-btn" href="#"
               ><img src="images/message.png" alt="message"
             /></a>
@@ -140,13 +165,21 @@
 
         <!-- 2-s -->
         <div class="d-flex gap-6">
-          <img src="images/Rectangle 10.png" alt="Rectangle 10" />
+          <img
+            src="images/Rectangle 10.png"
+            alt="Rectangle 10"
+            data-aos="flip-left"
+          />
 
           <!-- 3-s -->
           <div class="d-flex flex-column justify-content-between">
             <!-- 4-s -->
             <div class="d-flex gap-6">
-              <img src="images/Rectangle 15.png" alt="Rectangle 15" />
+              <img
+                src="images/Rectangle 15.png"
+                alt="Rectangle 15"
+                data-aos="flip-up"
+              />
 
               <!-- 5 -->
               <div class="d-flex flex-column justify-content-between">
@@ -155,7 +188,7 @@
                   sites, blogs, and landing pages. I take pride in creating
                   clean, efficient, and user-friendly code.
                 </p>
-                <div class="d-flex">
+                <div class="d-flex" data-aos="zoom-out-left">
                   <a class="btn btn-secondary d-flex gap-1" href="#">
                     SEE MORE
                     <img
@@ -172,10 +205,18 @@
             <!-- 4-s -->
             <ul class="d-flex gap-6">
               <li>
-                <img src="images/Rectangle 14.png" alt="Rectangle 14" />
+                <img
+                  src="images/Rectangle 14.png"
+                  alt="Rectangle 14"
+                  data-aos="fade-up"
+                />
               </li>
               <li>
-                <img src="images/Rectangle 29.png" alt="Rectangle 29" />
+                <img
+                  src="images/Rectangle 29.png"
+                  alt="Rectangle 29"
+                  data-aos="fade-up-left"
+                />
               </li>
             </ul>
             <!-- 4-e -->
@@ -191,5 +232,9 @@
     <footer class="bg-black py-20">
       <h5 class="text-white text-center">all rights reserved @hexschool2023</h5>
     </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
